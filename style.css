@@ -165,3 +165,53 @@ padding: 0px;
     height: 5px;
     background-color: #1290d1;
 }
+.p1{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.sdiv4{
+    width: 100%;
+    height: 350px;
+    background-image: url(./image/products-resources.png);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sdiv41{
+    width: 80%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 10px;
+   
+}
+.sdiv41m{
+     background-color: rgb(255, 255, 255);
+     height: 175px;
+     display: flex;
+}
+#icon{
+    width: 172px;
+    height: 175px;
+    display: block;
+  margin-left: 0;
+}
+.rg{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.sd4sc{
+    height: 150px;
+ display: block;
+  overflow-y: scroll;
+
+
+}
+.rgp{
+    font-size: 18px;
+    text-decoration: underline;
+}
