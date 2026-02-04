@@ -1,193 +1,347 @@
-<!DOCTYPE html>
-<html lang="en">
+.head{
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    position: fixed;
+    top: 0px;
+}
+body{
+    margin: 0px;
+    padding-top: 72px;
+}
+.div1{
+    width: 70%;
+    height: 72px;
+    display: flex;
+    align-content: center;
+    padding-left: 0px;
+   
+}
+.div1-2{
+width:30% ;
+height: 72px;
+background-color: rgb(255, 255, 255);
+display: flex;
+padding-right: 10px;
+padding: 0px;
+}
+#img1{
+    height: 40px;
+    width: 205px;
+   padding: 15px;
+}
+#ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px;
+        font-size: 10px;
+}
+#ul1{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    margin-right: auto;
+    font-size: 20px;
+    color: rgb(117, 116, 116);
+    display: flex;
+}
+#ul1 li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESP-32 WIFI & BLUETOOTH SOC</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+#hl{
+    height: 20px;
+    
+}
+.s{
+    font-size: 20px;
+}
+.sec1{
+    width: 100%;
+    height: 41px;
+    background-color: blue;
+    display: flex;
+   
+   
+}
+.div2{
+    width: 100%;
+    height: 41px;
+    background-color: rgb(255, 255, 255);
+  display: flex;
+     align-items: center;
+     padding-left: 53px;
+     position: fixed;
+}
+#la{
+    width: 32px;
+}
+#ul1 li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.sec2{
+    height: 475px;
+    width: 100%;
+    background-image:url(./image/esp32-2-new.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+.sdiv1{
+    width: 500px;
+    height: 200px;
+    font-size: 25px;
+    margin-left: 70px;
+}
+.sec3{
+     width: 100%;
+     height: auto;
+         
+     
+}
+.sdiv2{
+ width: 100%;
+     height: 40px;
+     background-color: rgb(0, 0, 0);
+     display: flex;
+     align-items: center;
+      position: sticky;
+      top: 113px;
 
-<body>
-    <header class="head">
-        <img id="img1" src="./image/logo-black.svg" alt="">
-        <div class="div1">
+}
+#ul2{
+    display: flex;
+    gap: 45px;
+    list-style-type: none;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    margin: 0px;
+}
+.sec4{
+    width: 100%;
+    height: 690px;
+    display: flex;
+    justify-content: center;
 
-            <ul id="ul">
-                <li><strong class="s">Hardware</strong></li>
-                <li><strong class="s">SDKs</strong></li>
-                <li><strong class="s">Cloud</strong></li>
-                <li><strong class="s">Solutions</strong></li>
-                <li><strong class="s">Support</strong></li>
-                <li><strong class="s">Ecosystem</strong></li>
-                <li><strong class="s">Company</strong></li>
-                <li><strong class="s">Contact</strong></li>
-            </ul>
+}
+.sdiv3{
+    width: 80%;
+    height: 680px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 75px;
+}
+.h{
+    font-weight: bold;
+    font-size: 26px;
+}
+.d{
+    font-size: 18px;
+}
+#img2{
+    width: 80px;
+    height: 80px;
+}
+.sec5{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#b{
+   margin-top: 70px;
+    width: 60px;
+    height: 5px;
+    background-color: #1290d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.sdiv4{
+    width: 100%;
+    height: 350px;
+    background-image: url(./image/products-resources.png);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w{
 
-            <div class="div1-2">
-                <ul id="ul1">
-                    <li><img id="hl" src="./image/search-new.png" alt=""></li>
-                    <li><img id="hl" src="./image/language.png" alt="">English<img id="hl"
-                            src="./image/language-top.png" alt=""></li>
-                    <li>Subscribe</li>
-                </ul>
-
-            </div>
-        </div>
-    </header>
-    <section class="sec1">
-        <div class="div2">
-            Hardware
-            <img id="la" src="./image/left.png" alt="">
-            ESP32
-            <img id="la" src="./image/left.png" alt="">
-            ESP32
-        </div>
-
-    </section>
-    <section class="sec2">
-        <div class="sdiv1">
-            <h1><strong>ESP32</strong></h1>
-            <em>A feature-rich MCU with integrated Wi-Fi and
-                Bluetooth connectivity for a wide-range
-                of applications <em></em>
-        </div>
-    </section>
-    <section class="sec3">
-        <div class="sdiv2">
-            <ul id="ul2">
-                <li>Overview</li>
-                <li>Products&Resources</li>
-                <li>Buy Now</li>
-            </ul>
-        </div>
-
-        <section class="sec4">
-            <div class="sdiv3">
-                <div class="sdiv3-m">
-                    <img id="img2" src="./image/temperature_0.png" alt="">
-                    <p class="h">Robust Design</p>
-                    <p class="d">ESP32 is capable of functioning reliably in industrial environments, with an operating
-                        temperature ranging from –40°C to +125°C. Powered by advanced calibration circuitries, ESP32 can
-                        dynamically remove external circuit imperfections and adapt to changes in external conditions.
-                    </p>
-                </div>
-                <div class="sdiv3-m">
-                    <img id="img2" src="./image/battery_0.png" alt="">
-                    <p class="h">Ultra-Low Power Consumption</p>
-                    <p class="d">Engineered for mobile devices, wearable electronics and IoT applications, ESP32
-                        achieves ultra-low power consumption with a combination of several types of proprietary
-                        software. ESP32 also includes state-of-the-art features, such as fine-grained clock gating,
-                        various power modes and dynamic power scaling.</p>
-                </div>
-                <div class="sdiv3-m">
-                    <img id="img2" src="./image/chip_0.png" alt="">
-                    <p class="h">High Level of Integration</p>
-                    <p class="d">ESP32 is highly-integrated with in-built antenna switches, RF balun, power amplifier,
-                        low-noise receive amplifier, filters, and power management modules. ESP32 adds priceless
-                        functionality and versatility to your applications with minimal Printed Circuit Board (PCB)
-                        requirements.</p>
-                </div>
-                <div class="sdiv3-m">
-                    <img id="img2" src="./image/wifi_0_1.png" alt="">
-                    <img id="img2" src="./image/ble_0_0.png" alt="">
-                    <p class="h">Hybrid Wi-Fi & Bluetooth Chip</p>
-                    <p class="d">ESP32 can perform as a complete standalone system or as a slave device to a host MCU,
-                        reducing communication stack overhead on the main application processor. ESP32 can interface
-                        with other systems to provide Wi-Fi and Bluetooth functionality through its SPI / SDIO or I2C /
-                        UART interfaces.ESP32 can perform as a complete standalone system or as a slave device to a host
-                        MCU, reducing communication stack overhead on the main application processor. ESP32 can
-                        interface with other systems to provide Wi-Fi and Bluetooth functionality through its SPI / SDIO
-                        or I2C / UART interfaces.</p>
-
-                </div>
-            </div>
-        </section>
-        <section class="sec5">
-            <hr id="b">
-            <p class="p1">Products & Resources</p>
-            <div class="sdiv4">
-                <div class="w">
-                    <div class="sdiv41">
-
-                        <div class="sdiv41m">
-                            <img id="icon" src="./image/icon-series.png" alt="">
-                            <div class="rg">
-                                <div class="sd4sc">
-                                    <p class="rgp">ESP32-D0WD-V3</p>
-                                    <p class="rgp"> ESP32-D0WDR2-V3</p>
-                                    <p class="rgp">ESP32-U4WDH</p>
-                                    <p class="rgp">ESP32-PICO-V3</p>
-                                    <p class="rgp">ESP32-PICO-V3-02</p>
-                                    <p class="rgp">ESP32-PICO-D4 </p>
-                                </div>
-                                <p><u> See More SoCs ></u></p>
-                            </div>
-                        </div>
-                        <div class="sdiv41m">
-
-                            <img id="icon" src="./image/icon-modules.png" alt="">
-                            <div class="rg">
-                                <div class="sd4sc">
-                                    <p class="rgp">ESP32-WROOM-32E/32UE</p>
-                                    <p class="rgp">ESP32­-WROOM­-DA</p>
-                                    <p class="rgp">ESP32-WROVER-E/IE</p>
-                                    <p class="rgp">ESP32-MINI-1/1U</p>
-                                    <p class="rgp">ESP32-PICO-MINI-02/02U</p>
-                                    <p class="rgp">ESP32-PICO-V3-ZERO (ACK Module)</p>
+  display: flex;
+flex-direction: column;   
+align-items: center;
+}
+.sdiv41{
+    width: 80%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+   
+}
+.sdiv41m{
+     background-color: rgb(255, 255, 255);
+     height: 175px;
+     display: flex;
+}
+#icon{
+    width: 172px;
+    height: 175px;
+    display: block;
+  margin-left: 0;
+}
+.rg{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.sd4sc{
+    height: 150px;
+ display: block;
+  overflow-y: scroll;
 
 
-                                </div>
-                                <p><u> See More Modules ></u></p>
-                            </div>
-                        </div>
+}
+.rgp{
+    font-size: 18px;
+    text-decoration: underline;
+}
+.lb{
+    width: 80%;
+    height: 40px;
+    background-color: black;
+}
+#ul3{
+    display: flex;
+    list-style-type: none;
+   
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    gap: 30px;
 
-                        <div class="sdiv41m">
+}
+#ul3 li{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+#ic{
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+.sec6{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./image/esp-product-selector-bg-2.png);
+    background-size: 80%;
+ margin: 80px 0;
+ padding-top: 20px;
+ padding-bottom: 30px;
+ /* padding-left: 30px;
+ padding-right: 30px; */
+}
+.sd6{
+    width: 80%;
+    height: 180px;
+  
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+}
+#d6i{
+    height: 80px;
+    width: 80px;
+}
+#d6p{
+    font-size: 30px;
+    padding-left: 10px;
+   padding-top: 25px;
+}
+.sd61{
+    width: 80%;
+    height:80px;
+   display: flex;
 
-                            <img id="icon" src="./image/icon-devkits.png" alt="">
-                            <div class="rg">
-                                <div class="sd4sc">
-                                    <p class="rgp">ESP32-DevKitC</p>
-                                    <p class="rgp">ESP32-DevKitM-1</p>
-                                    <p class="rgp">ESP32-PICO-KIT</p>
-                                    <p class="rgp">ESP32-PICO-V3-ZERO-DevKit (ACK DevKit)</p>
-                                    <p class="rgp">ESP32-Vaquita-DSPG</p>
-                                    <p class="rgp">ESP32-LCDKit</p>
+}
+#sec6-b{
+    width: 160px;
+    height: 38px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+#sec6-b:hover{
+     color: white;
+    background-color: rgb(84, 163, 209);
+    border: 1px solid rgb(118, 193, 223);
+}
+.sec7{
+    width: 100%;
+    height: 230px;
+    background-image: url(./image/esp32-buy-now.jpg);
+    background-size: 100%;
+}
+.s7d{
+     width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sec7-b{
+     width: 160px;
+    height: 38px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+#sec7-b:hover{
+    color: white;
+    background-color: gray;
+    border: 1px solid black;
+}
+.foot{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: white;
 
-
-                                </div>
-                                <p><u> See More DevKits ></u></p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lb">
-                        <ul id="ul3">
-                            <li><img id="ic" src="./image/icon-1.png" alt=""> Documents ></li>
-                            <li><img id="ic" src="./image/icon-2.png" alt="">Product Change Notifications ></li>
-                            <li><img id="ic" src="./image/icon-3.png" alt="">Certificates ></li>
-                            <li><img id="ic" src="./image/icon-4.png" alt="">Advisories ></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section class="sec6">
-            <div class="sd6">
-                <div class="sd61">
-                    <img id="d6i" src="./image/esp-product-selector-logo.png" alt="">
-                    <strong id="d6p">ESP Product Selector</strong>
-                </div>
-                <p>Choosing the ESP products you need has never been easier!</p>
-                <button id="sec6-b">Start Now</button>
-            </div>
-        </section>
-        <section class="sec7">
-            
-
-        </section>
-
-</body>
-
-</html>
+}
+.fd1{
+    width: 40% ;
+    height: 400px;
+    color: white;
+    margin-left:10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
