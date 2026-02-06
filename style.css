@@ -339,7 +339,7 @@ align-items: center;
 
 }
 .fd1{
-    width: 40% ;
+    /* width: 40% ; */
     /* height: 400px; */
     color: white;
     margin-left:10px ;
@@ -371,4 +371,28 @@ align-items: center;
 }
 #s2{
    margin-left: 40px;
+}
+.iw{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 999px;
+    padding: 4px;
+}
+.iw input{
+    border: none;
+    outline: none;
+    flex: 1;
+}
+.iw button{
+    border: none;
+     width: 100px;
+    height: 40px;
+     background: rgb(241, 16, 16);
+     border-radius: 999px;
+     color: #ffffff;
+     cursor: pointer;
+    
 }
